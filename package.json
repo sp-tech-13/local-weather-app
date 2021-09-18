@@ -6,7 +6,8 @@
     "ng": "ng",
     "start": "ng serve --port 5000",
     "build": "ng build",
-    "build:prod": "npm run build --prod", 
+    "build:prod": "npm build --prod", 
+    "test:coverage": "npm test -- --code-coverage",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
